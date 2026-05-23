@@ -77,11 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "MG Innovations Pvt Ltd — Building the future of everyday digital services" },
       { name: "description", content: "MG Innovations Pvt Ltd is a futuristic technology startup building scalable digital products and AI-powered platforms — starting with Ezy Finds, a hyperlocal services marketplace." },
       { name: "author", content: "MG Innovations Pvt Ltd" },
-      { property: "og:title", content: "MG Innovations — Building the future of everyday digital services" },
-      { property: "og:description", content: "A futuristic technology startup shipping digital products, mobile apps and AI-native platforms." },
+      { property: "og:title", content: "MG Innovations Pvt Ltd — Building the future of everyday digital services" },
+      { property: "og:description", content: "MG Innovations Pvt Ltd is a futuristic technology startup building scalable digital products and AI-powered platforms — starting with Ezy Finds, a hyperlocal services marketplace." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "MG Innovations Pvt Ltd — Building the future of everyday digital services" },
+      { name: "twitter:description", content: "MG Innovations Pvt Ltd is a futuristic technology startup building scalable digital products and AI-powered platforms — starting with Ezy Finds, a hyperlocal services marketplace." },
     ],
     links: [
       {
