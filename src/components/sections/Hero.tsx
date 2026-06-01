@@ -4,7 +4,7 @@ import appMockup from "@/assets/ezyfinds-mockup.png";
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-24 md:pt-44 md:pb-32 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <img
           src={heroBg}
@@ -20,15 +20,13 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs">
-              <span className="h-2 w-2 rounded-full bg-[oklch(0.85_0.24_145)] animate-pulse-glow" />
-              <span className="text-muted-foreground">Now building · Series Seed open</span>
-            </div>
             <h1 className="font-display text-5xl md:text-7xl font-semibold leading-[1.02] tracking-tight">
               Building the future of <span className="text-gradient">everyday digital services</span>.
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-              MG Innovations Pvt Ltd creates scalable digital products and intelligent platforms that simplify how people connect, work, and access services — starting with hyperlocal marketplaces.
+              MG Innovations Pvt Ltd creates scalable digital products and intelligent <br className="hidden md:block" />
+              platforms that simplify how people connect, work, and access services <br className="hidden md:block" />
+              — starting with hyperlocal marketplaces.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/products" className="btn-primary rounded-full px-6 py-3 text-sm inline-flex items-center gap-2">
